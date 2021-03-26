@@ -15,11 +15,9 @@ spec:
   path: '.'
   schema:
     required:
-      - component_id
-      - description
+      - repo_name
     properties:
-      component_id:
-        title: Name
+      repo_name:
+        title: Repository
         type: string
-        description: Unique name of the component
-      description:
+        description: Repo name of the component
